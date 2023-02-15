@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",
+    "module": "commonjs",
+    "strict": true,
+    "jsx": "react",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "lib": ["esnext", "dom"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "build"]
+}
